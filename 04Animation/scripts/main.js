@@ -5,10 +5,10 @@ var rotationSpeed = 0.05;
  var myOtherBox = document.getElementById('myTorusKnot');
 
  function spin(){
- 	myOtherBox.object3D.rotation.x -= rotationSpeed;
- 	myOtherBox.object3D.rotation.y -= rotationSpeed;
- 	//myOtherBox.object3D.rotation.z -= rotationSpeed;
- 	console.log(myOtherBox.object3D.rotation.x);
+ 	myTorusKnot.object3D.rotation.x -= rotationSpeed;
+ 	myTorusKnot.object3D.rotation.y -= rotationSpeed;
+ 	//myTorusKnot.object3D.rotation.z -= rotationSpeed;
+ 	console.log(myTorusKnot.object3D.rotation.x);
  }
 
  setInterval(spin, 16); //equivalent to 60 fps
