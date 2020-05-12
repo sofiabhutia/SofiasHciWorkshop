@@ -16,6 +16,7 @@
           <img id="stone" src="images/stone.jpg" />
           <img id="moon" src="images/moon.jpg" />
           <img id="sky" src="images/sky.png" />
+          <img id="explosion" src="images/explosion.png" />
       </a-assets>
       <a-sky src="#sky"></a-sky>
       <a-box id="myBox" 
@@ -24,11 +25,11 @@
         width="3" 
         height="1" 
         depth="1" 
-        material="src: #wood"
+        material="src: #explosion"
         shadow 
         animation="property: position; 
-                   to: -1 2 -10; 
-                   dur: 9000; 
+                   to: -1 2 -50; 
+                   dur: 1000; 
                    easing: linear; 
                    loop: true" >
       </a-box>
