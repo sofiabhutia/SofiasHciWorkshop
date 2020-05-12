@@ -48,13 +48,24 @@
                    easing: linear; 
                    loop: true">
        </a-sphere>
+       <a-sphere id="mySecondSphere"
+         position="-3 3 -3"
+         radius="1"
+         material="src: #wood"
+         shaddow
+         animation="property: rotation; 
+                   to: 0 360 0; 
+                   dur: 20000; 
+                   easing: linear; 
+                   loop: true">
+       </a-sphere>
       <a-plane id="ground"
         position="0 0 -4" 
         rotation="-90 0 0" 
         width="100" 
         height="100" 
         color="#7BC8A4" 
-        material="src: #grass; repeat: 10 10"
+        material="src: #stone; repeat: 10 10"
         shadow>
       </a-plane> 
     </a-scene>
